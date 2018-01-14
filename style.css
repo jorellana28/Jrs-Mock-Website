@@ -8,7 +8,7 @@
 Want to convert to Sass later so all theme color references will
 be replaced with the variable 'theme-color'.
 #theme-color: #f4511e*/
-#page-header {
+.jumbotron {
 	background-color: #f4511e;
 	color: #ffffff;
 	padding: 100px 25px;
