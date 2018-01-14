@@ -27,13 +27,17 @@ be replaced with the variable 'theme-color'.
 	background-color: #f6f6f6; /*grey*/
 }
 
+.bg-orange {
+	background-color: #ddc658; /*bright orange*/
+}
+
 .logo-small {
 	color: #ffffff;
-	font-size: 200px;
+	font-size: 50px;
 }
 .logo {
 	color: #ffffff;
-	font-size: 50px;
+	font-size: 200px;
 }
 
 #myCarousel {
