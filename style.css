@@ -10,6 +10,7 @@ be replaced with the variable 'theme-color'.
 
 .container-fluid {
 	padding: 60px 50px;
+	background-color:  #ffffff;
 }
 
 .bg-grey {
