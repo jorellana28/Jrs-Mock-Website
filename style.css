@@ -4,8 +4,9 @@ be replaced with the variable 'theme-color'.
 #theme-color: #f4511e*/
 .jumbotron {
 	color: #ffffff;
-	padding: 100px 100px;
+	padding: 100px 25px;
 	background-color: #53f1eb; /*bright blue*/
+	width: 10em;
 }
 
 .page-header {
@@ -18,7 +19,7 @@ be replaced with the variable 'theme-color'.
 }
 
 .container-fluid {
-	padding: 60px 50px;
+	padding: 50px 40px;
 	background-color:  #53f1eb; /*bright blue*/
 }
 
@@ -32,7 +33,7 @@ be replaced with the variable 'theme-color'.
 }
 .logo {
 	color: #ffffff;
-	font-size: 200px;
+	font-size: 50px;
 }
 
 #myCarousel {
@@ -66,7 +67,7 @@ be replaced with the variable 'theme-color'.
 
 .navbar {
 	margin-bottom: 0;
-    background-color: #ffc658; /*bright orange*/
+    background-color: #ffa258; /*dark orange*/
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -80,7 +81,7 @@ be replaced with the variable 'theme-color'.
 }
 
 .navbar-nav li a:hover, .navbar-nav li-active a {
-	color: #ffc658;  !important;
+	color: #ffa258;  !important;
     background-color: #fff !important;
 }
 
