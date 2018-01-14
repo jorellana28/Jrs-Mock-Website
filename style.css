@@ -7,7 +7,7 @@ be replaced with the variable 'theme-color'.
 	padding: 100px 25px;
 	background-image: url(images1.jpeg);
   	background-position: center center, center top;
- 	 background-repeat: repeat, no-repeat;
+ 	 background-repeat: no-repeat;
 }
 
 .container-fluid {
