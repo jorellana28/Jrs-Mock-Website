@@ -17,7 +17,7 @@ be replaced with the variable 'theme-color'.
 	background-color: #f6f6f6;
 }
 
-#logo-small {
+.logo-small {
 	color: #f4511e;
 	font-size: 50px;
 }
