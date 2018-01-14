@@ -25,6 +25,10 @@ be replaced with the variable 'theme-color'.
 	font-size: 200px;
 }
 
+#myCarousel {
+	background-color: #f4511e;
+}
+
 .carousel-control.right, .carousel-control.left {
 	background-image: none;
 	color: #f4511e;
