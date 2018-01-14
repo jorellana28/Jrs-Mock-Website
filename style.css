@@ -3,7 +3,7 @@ Want to convert to Sass later so all theme color references will
 be replaced with the variable 'theme-color'.
 #theme-color: #f4511e*/
 .jumbotron {
-	background-color: #f4511e;
+	background-image: url(C:\Users\User\Desktop\JR_Website\images1);
 	color: #ffffff;
 	padding: 100px 25px;
 }
