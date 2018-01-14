@@ -8,10 +8,12 @@ be replaced with the variable 'theme-color'.
 }
 
 .page-header {
+	background-color: #4dc3ff
+	/*
 	background-image: url(banner.jpeg);
  	background-repeat: no-repeat;
     margin: auto;
-  	width: 100%;
+  	width: 100%; */
 }
 
 .container-fluid {
@@ -20,15 +22,15 @@ be replaced with the variable 'theme-color'.
 }
 
 .bg-grey {
-	background-color: #f6f6f6;
+	background-color: #4dc3ff
 }
 
 .logo-small {
-	color: #f4511e;
-	font-size: 50px;
+	color: #4dc3ff
+	font-size: 100px;
 }
 .logo {
-	color: #f4511e;
+	color: #4dc3ff
 	font-size: 200px;
 }
 
@@ -38,15 +40,15 @@ be replaced with the variable 'theme-color'.
 
 .carousel-control.right, .carousel-control.left {
 	background-image: none;
-	color: #f4511e;
+	color: #4dc3ff
 }
 
 .carousel-indicators li {
-	border-color: #f4511e;
+	border-color: #4dc3ff
 }
 
 .carousel-indicators li.active {
-	background-color: #f4511e;
+	background-color: #4dc3ff
 }
 
 .item h4 {
@@ -63,7 +65,7 @@ be replaced with the variable 'theme-color'.
 
 .navbar {
 	margin-bottom: 0;
-    background-color: #f4511e;
+    background-color: #4dc3ff
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
