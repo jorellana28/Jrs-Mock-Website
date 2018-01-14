@@ -8,9 +8,9 @@ bright blue: 53f1eb
 dark-orange: ffa257*/
 .jumbotron {
 	color: #ffffff;
-	padding: 50px 25px;
+	padding: 200px 25px;
 	background-color: #53f1eb; /*bright blue*/
-	height: 100%
+	margin: 0;
 }
 
 .page-header {
