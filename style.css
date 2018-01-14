@@ -6,7 +6,9 @@ be replaced with the variable 'theme-color'.
 	color: #ffffff;
 	padding: 100px 25px;
 	background-image: url(images1.jpeg);
- 	 background-repeat: no-repeat;
+ 	background-repeat: no-repeat;
+ 	height: 200px;
+  	width: 100%;
 }
 
 .container-fluid {
