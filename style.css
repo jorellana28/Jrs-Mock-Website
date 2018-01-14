@@ -5,6 +5,9 @@ be replaced with the variable 'theme-color'.
 .jumbotron {
 	color: #ffffff;
 	padding: 100px 25px;
+}
+
+.page-header {
 	background-image: url(images1.jpeg);
  	background-repeat: no-repeat;
  	height: 200px;
