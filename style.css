@@ -8,9 +8,9 @@ be replaced with the variable 'theme-color'.
 }
 
 .page-header {
-	background-image: url(images1.jpeg);
+	background-image: url(banner.jpeg);
  	background-repeat: no-repeat;
- 	height: 200px;
+    margin: auto;
   	width: 100%;
 }
 
