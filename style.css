@@ -4,7 +4,7 @@ be replaced with the variable 'theme-color'.
 #theme-color: #f4511e*/
 .jumbotron {
 	color: #ffffff;
-	padding: 100px 25px;
+	padding: 100px 100px;
 	background-color: #53f1eb; /*bright blue*/
 }
 
