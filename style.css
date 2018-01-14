@@ -19,19 +19,19 @@ be replaced with the variable 'theme-color'.
 
 .container-fluid {
 	padding: 60px 50px;
-	background-color:  #ffffff;
+	background-color:  #4dc3ff;
 }
 
 .bg-grey {
-	background-color: #4dc3ff;
+	background-color: #f6f6f6; /*grey*/
 }
 
 .logo-small {
-	color: #4dc3ff;
-	font-size: 100px;
+	color: #ffffff;
+	font-size: 200px;
 }
 .logo {
-	color: #4dc3ff;
+	color: #ffffff;
 	font-size: 200px;
 }
 
