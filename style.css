@@ -31,6 +31,12 @@ dark-orange: ffa257*/
 	background-color: #ffc658; /*bright orange*/
 }
 
+.logo-contact {
+	color: #ffa258;
+	font-size: 25px;
+	padding-right: 10px;
+}
+
 .logo-small {
 	color: #ffffff;
 	font-size: 50px;
