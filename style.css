@@ -42,7 +42,8 @@ dark-orange: ffa257*/
 }
 .logo {
 	color: #ffffff;
-	font-size: 200px;
+	font-size: 10em;
+	padding: 10%;
 }
 
 #myCarousel {
