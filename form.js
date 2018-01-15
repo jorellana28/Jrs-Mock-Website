@@ -3,8 +3,8 @@ $(document).ready(function() {
         alert("Text!");
     });
     $("#submit").click(function(){
-    	alert("Name: " + $("#name").val() + "\n"
-    		  "Phone: " + $("#phone").val() + "\n"
+    	alert("Name: " + $("#name").val() + "\n" +
+    		  "Phone: " + $("#phone").val() + "\n" +
     		  "Email: " + $("#email").val())
     });
 });
