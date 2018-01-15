@@ -9,7 +9,7 @@ $(document).ready(function() {
     	var comments = $("#comments").val();
     	alert("Name: " + name + "\n" +
     		  "Phone: " + phone + "\n" +
-    		  "Email: " + email) + "\n" +
+    		  "Email: " + email + "\n" +
     		  "Comments: " + comments);
     });
 });
