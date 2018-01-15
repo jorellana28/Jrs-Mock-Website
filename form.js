@@ -5,6 +5,6 @@ $(document).ready(function() {
     $("#submit").click(function(){
     	alert("Name: " + $("#name").val() + "\n" +
     		  "Phone: " + $("#phone").val() + "\n" +
-    		  "Email: " + $("#email").val())
+    		  "Email: " + $("#email").val());
     });
 });
