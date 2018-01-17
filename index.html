@@ -10,6 +10,7 @@
 <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+	<?php include 'form.php';?>
 <!-- APP CSS -->
     <link rel="stylesheet" href="style.css" text="text/css">
 </head>
@@ -121,17 +122,19 @@
 				<p><span class="glyphicon glyphicon-envelope logo-contact"></span>MyName@email.com</p>
 			</div>
 			<div class="col-sm-7">
-				<div class="row">
+				<form class="row" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 					<div class="col-sm-12 form-group">
-						<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+						<input class="form-control" id="name" name="name" placeholder="Name" type="text" value = "<?php echo $name;?>" required>
+						<span class ="error"> <?php echo $nameErr;?></span>
 					</div>
 					<div class="col-sm-6 form-group">
 						<input class="form-control" id="email" name="email" placeholder="Email" type="text" required>
+						<span class ="error"> <?php echo $emailErr;?></span>
 					</div>
 					<div class="col-sm-6 form-group">
 						<input class="form-control" id="phone" name="phone" placeholder="Phone Number" type="text" required>
 					</div>
-				</div>
+				<!--</div>-->
 				<textarea class="form-control" id="comments" name="comments" placeholder="Question or comment" rows="5"></textarea><br>
 				<div class="row">
 					<div class="col-sm-12 form-group">
@@ -168,6 +171,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 	<script src="form.js"></script>
+	<?php include 'form.php';?>
 
   </body>
 </html>
